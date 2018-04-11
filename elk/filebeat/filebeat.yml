@@ -1,0 +1,8 @@
+filebeat.prospectors:
+  - input_type: log
+    document_type: nginxaccess
+    paths:
+      - /var/log/nginx/*.log
+output.logstash:
+  # The Logstash hosts
+  hosts: ["127.0.0.1:5044"]
