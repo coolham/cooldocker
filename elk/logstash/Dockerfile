@@ -2,6 +2,9 @@ FROM elkbase:v1.0
 MAINTAINER coolham
 VOLUME [ "/opt/product/data/" ]
 ADD ./logstash-6.2.3.tar.gz /opt/product/
+RUN mkdir -p /etc/pki/tls/certs && mkdir -p /etc/pki/tls/private
+ADD ./logstash-forwarder.crt /etc/pki/tls/certs/
+ADD ./logstash-forwarder.key /etc/pki/tls/private/
 ADD entrypoint.sh /root/
 RUN chmod +x /root/entrypoint.sh
 EXPOSE 5044
