@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7.3
 MAINTAINER coolham
 VOLUME [ "/opt/product/data/" ]
 RUN  /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
