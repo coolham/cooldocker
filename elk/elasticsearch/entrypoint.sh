@@ -14,4 +14,3 @@ su - elk <<!
 export JAVA_HOME=/opt/product/tools/jdk1.8.0_162
 export PATH=$JAVA_HOME/bin:$PATH
 /opt/product/elasticsearch-6.2.3/bin/elasticsearch
-
