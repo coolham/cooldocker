@@ -7,4 +7,3 @@ RUN mkdir /opt/product/tools/
 ADD ./tools /opt/product/tools/
 ENV JAVA_HOME /opt/product/tools/jdk1.8.0_162
 CMD ["/usr/sbin/init"]
-
