@@ -1,3 +1,9 @@
+
+
+## download
+https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.4.tar.gz
+
+
 docker build -f elasticsearch:v1.0 ./
 
 ln -s ~/Tools/elasticsearch-6.2.3.tar.gz  elasticsearch
@@ -15,4 +21,5 @@ docker run --privileged --restart=always -d -ti -v /opt/product/data:/opt/produc
 
 
 https://www.jianshu.com/p/460a307adebb
+https://www.elastic.co/cn/
 

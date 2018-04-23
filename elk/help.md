@@ -1,6 +1,10 @@
 
 
 
+https://www.elastic.co/cn/downloads
+
+
+
 ## Docker install
 
 安装需要的软件包：
@@ -17,3 +21,9 @@ systemctl enable docker.service
  
 ##使用aliyun镜像
 
+
+# Ref
+https://www.jianshu.com/p/460a307adebb
+https://blog.csdn.net/bittersweet0324/article/details/78503961
+
+https://www.elastic.co/cn/downloads
