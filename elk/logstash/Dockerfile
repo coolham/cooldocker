@@ -1,4 +1,4 @@
-FROM elkbase:v1.0
+FROM elkbase:v1.1
 MAINTAINER coolham
 VOLUME [ "/opt/product/data/" ]
 ADD ./logstash-6.2.4.tar.gz /opt/product/
