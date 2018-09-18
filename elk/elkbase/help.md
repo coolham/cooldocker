@@ -14,7 +14,7 @@
 在当前目录下建立tools目录
 把JDK的包解压到tools目录下，例如：
 [root@bogon-84 elkbase]# ls  tools/
-jdk1.8.0_162
+jdk1.8.0_172
 
 
 
