@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker build -t elkbase:v1.0 ./
+docker build -t elkbase:v1.1 ./
 
