@@ -3,6 +3,9 @@
 ## JDK
 1. Download jdk1.8, extract it and put unser ./tools
 
+elkbase/tools/jdk-8u172-linux-x64.tar.gz
+
+
 ## Dockerfile
 2.  编写dockerfile
 

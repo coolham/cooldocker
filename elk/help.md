@@ -58,3 +58,15 @@ https://www.jianshu.com/p/460a307adebb
 https://blog.csdn.net/bittersweet0324/article/details/78503961
 
 https://www.elastic.co/cn/downloads
+
+
+#Q&A
+
+## SELinux is not supported with the overlay2 graph driver on this kernel
+
+意思是说：此linux的内核中的SELinux不支持 overlay2 graph driver ，解决方法有两个，要么启动一个新内核，要么就在docker里禁用selinux，--selinux-enabled=false
+
+vi /etc/sysconfig/docker
+--selinux-enabled=false
+systemctl start docker
+

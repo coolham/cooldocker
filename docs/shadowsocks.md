@@ -31,3 +31,5 @@ nohup sslocal -c /etc/shadowsocks.json /dev/null 2>&1 &
 privoxy --user privoxy /usr/local/etc/privoxy/config
 
 
+#安装
+
