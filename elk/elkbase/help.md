@@ -3,7 +3,8 @@
 ## JDK
 1. Download jdk1.8, extract it and put unser ./tools
 
-elkbase/tools/jdk-8u172-linux-x64.tar.gz
+把jdk-8u172-linux-x64.tar.gz解压到tools目录下：
+elkbase/tools/jdk1.8.0_172
 
 
 ## Dockerfile
