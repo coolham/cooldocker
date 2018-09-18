@@ -1,7 +1,7 @@
 FROM elkbase:v1.0
 MAINTAINER coolham
 VOLUME [ "/opt/product/data/" ]
-ADD ./logstash-6.2.3.tar.gz /opt/product/
+ADD ./logstash-6.2.4.tar.gz /opt/product/
 RUN mkdir -p /etc/pki/tls/certs && mkdir -p /etc/pki/tls/private
 ADD ./openssl.cnf /etc/pki/tls/
 ADD ./logstash-forwarder.crt /etc/pki/tls/certs/
