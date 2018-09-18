@@ -1,4 +1,5 @@
 server.port: 5601
 server.host: "0.0.0.0"
+# Note： dose not use 127.0.0.1
 elasticsearch.url: "http://192.168.1.84:9200"
 

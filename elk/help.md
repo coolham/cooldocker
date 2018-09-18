@@ -1,5 +1,12 @@
 
 
+#Comand
+
+$>docker stop $(docker ps -a -q)
+
+
+#Setup
+
 
 https://www.elastic.co/cn/downloads
 
