@@ -33,3 +33,16 @@ privoxy --user privoxy /usr/local/etc/privoxy/config
 
 #安装
 
+yum install python-pip
+pip install shadowsocks
+
+## vim /etc/shadowsocks.json
+{
+ "server": "xxxx",
+ "server_port": 12443,
+ "password": "xxx",
+ "method": "aes-256-cfb",
+ "local_address":"127.0.0.1",
+ "local_port":1080
+}
+

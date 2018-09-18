@@ -17,7 +17,9 @@ path.data: /opt/product/data/elk/elasticsearchdata
 network.host: 0.0.0.0
 在/opt/product/data目录创建elasticsearchdata 目录
 
-docker run --privileged --restart=always -d -ti -v /opt/product/data:/opt/product/data -p 9200:9200 -p 9300:9300 elasticsearch:v1.0 /bin/bash
+##注意/opt/product/data/elk目录权限问题
+
+docker run --privileged --restart=always -d -ti -v /opt/product/data:/opt/product/data -p 9200:9200 -p 9300:9300 elasticsearch:v1.1 /bin/bash
 
 
 https://www.jianshu.com/p/460a307adebb
